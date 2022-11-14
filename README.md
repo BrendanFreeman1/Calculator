@@ -41,6 +41,7 @@
 
 <h2>Author</h2>
 <p>Brendan Freeman</p>
-
-<li><a href="https://github.com/BrendanFreeman1"> My Github </a></li>
-<li><a href="https://linkedin.com/in/BrendanFreeman1"> My LinkedIn </a></li>
+<ul>
+  <li><a href="https://github.com/BrendanFreeman1"> My Github </a></li>
+  <li><a href="https://linkedin.com/in/BrendanFreeman1"> My LinkedIn </a></li>
+</ul>
