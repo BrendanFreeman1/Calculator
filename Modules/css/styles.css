@@ -1,0 +1,163 @@
+/*===================
+         All
+===================*/
+@font-face {
+  font-family: Roboto;
+  src: url(../../Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  color:#F9FAF8;
+  background-color: #1F2937;
+  font-family: Roboto, normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/*===================
+     Nav banner
+===================*/
+.nav_bar {
+  height: 72px;
+  background-color: #141b25;
+  width: 100vmax;
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link {
+  display: block;
+  font-size: 18px;
+  padding: 20px;
+  color: #3882f6;
+}
+
+.nav_link:hover {
+  color: white;
+  background-color: #2e4352;
+  font-weight: bold;
+}
+
+/*===================
+     Title Banner
+===================*/
+
+.calc_title {
+  background-color: #505050;
+  padding: 24px;
+  padding-top: 96px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 10px 10px #1a1a1a;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 10px 10px 5px #1a1a1a;
+  margin: 0;
+}
+
+/*===================
+        Body
+===================*/
+.container {
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px #1a1a1a;
+}
+
+.currentEquation{
+  background-color: rgb(120, 120, 120);
+  width:300px;
+  height:70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: none;
+
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.equationText {
+  color: rgb(199, 199, 199);
+  padding: 20px 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.display {
+  background-color:  rgb(120, 120, 120);
+  width:300px;
+  height:50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.currentNum {
+  padding: 0px 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.row{
+  display: flex;
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  height:500px;
+}
+
+button {
+  color:white;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #263244;
+  border: none;
+  width:100%;
+}
+
+button:hover{
+  background-color: #3b4f6b;
+}
+
+.clearAllBtn,
+.backSpaceBtn{
+  background-color: #212e41;
+}
+
+/*===================
+        Footer
+===================*/
+
+.calc_footer {
+  height: 72px;
+  background-color: #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 3px;
+}
+
